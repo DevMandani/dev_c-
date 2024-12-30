@@ -25,7 +25,6 @@ using namespace std;
      }
 
      ~myClass(){
-
         delete[] arr;
         arr = NULL;
 
@@ -35,8 +34,7 @@ using namespace std;
             else {
                 cout << "memory dellocation is failed" << endl;
             }
-
-     }
+          }
 
      void setElement(int index, int ele){
 
@@ -59,7 +57,6 @@ using namespace std;
         else{
             cout << "error: index is out of arr size.. !" << endl;
         }
-
      }
 
 };
@@ -68,8 +65,13 @@ int main(){
 
 myClass obj(5);
 obj.setElement(0, 90);
-
+obj.setElement(1, 80);
+obj.setElement(2, 60);
+obj.setElement(3, 50);
 obj.getElement(0);
+obj.getElement(1);
+obj.getElement(2);
+obj.getElement(3);
 
 
     return 0;
