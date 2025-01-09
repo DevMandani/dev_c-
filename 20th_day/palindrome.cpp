@@ -81,9 +81,6 @@ class Stack
             return true;
     }
 
-
-
-
 };
 
 
@@ -110,16 +107,6 @@ if(Stack.isPalindrome(str)){
 else{
     cout<<"is not palindrome"<<endl;
 }
-
-
-
-
-
-
-
-
-
-
 
     return 0;
 }
